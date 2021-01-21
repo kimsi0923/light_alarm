@@ -106,9 +106,11 @@
 
 - BeagleBone Black보드를 브레드 보드와 연결하고 브레드 보드에 사용할 센서 및 GPIO선 연결. 실행 전에는 LED 불빛 OFF.
 
+
 ![타이머 입력](https://user-images.githubusercontent.com/73647861/105371928-71b4b100-5c48-11eb-813c-57a959a790c6.jpg)
 
 - 실행 창 ./Timer ~에 알람이 울릴 원하는 시간 입력
+
 
 ![타이머 입력 오류](https://user-images.githubusercontent.com/73647861/105372234-b9d3d380-5c48-11eb-8ad6-b64fd9b1a2f8.jpg)
 
@@ -116,12 +118,55 @@
 
 - ERROR_2) 올바르지 않은 시간을 입력했을 때 - Wrong Timer Set 출력
 
+
 <img src="https://user-images.githubusercontent.com/73647861/105372596-1a631080-5c49-11eb-9c84-81e73688a482.jpg" width="500" height="250">
 
 - 실행 시 현재 시간을 디지털 시계로 표시
 
 - 하단에 원하는 알람 시간을 표시. 초기설정은 SOUND MODE
 
+
 <img src="https://user-images.githubusercontent.com/73647861/105375015-abd38200-5c4b-11eb-9b9f-368ba98aa435.jpg" width="400" height="300">
 
 - 알람이 설정되면 LED 불빛 ON
+
+
+<img src="https://user-images.githubusercontent.com/73647861/105375766-564ba500-5c4c-11eb-99c6-443b46f91941.jpg" width="400" height="300"> <img src="https://user-images.githubusercontent.com/73647861/105375891-7f6c3580-5c4c-11eb-9490-a9f0bb059816.jpg" width="500" height="250">
+
+- Button1(큰 버튼)을 누르면 SOUND MODE에서 VIBRATION MODE로 변경 가능
+
+
+<img src="https://user-images.githubusercontent.com/73647861/105376818-821b5a80-5c4d-11eb-90e6-a562785cbc90.jpg" width="300" height="200"> <img src="https://user-images.githubusercontent.com/73647861/105377161-daeaf300-5c4d-11eb-9e8a-7ff691c477ac.jpg" width="300" height="200"> <img src="https://user-images.githubusercontent.com/73647861/105377340-0968ce00-5c4e-11eb-8615-bd317bb999eb.jpg" width="300" height="200">
+
+- 설정한 시간이 되면 SOUND MODE / VIBRATION MODE 중 선택한 MODE로 알람을 울림
+
+- 알람이 울리는 중일 때는 LED가 일정 간격으로 깜빡거림
+
+
+<img src="https://user-images.githubusercontent.com/73647861/105378219-f276ab80-5c4e-11eb-8d0b-58336d23e278.jpg" width="500" height="300">
+
+- 알람이 울릴 때 실행 창 왼쪽 하단에 Push the Button이 출력
+
+- 방에 불이 꺼져 있을 경우, Turn on light가 출력
+
+
+<img src="https://user-images.githubusercontent.com/73647861/105378665-63b65e80-5c4f-11eb-92eb-c379f09e8e4f.jpg" width="400" height="300">
+
+- Turn on light가 출력되는 기준인 조도 센서를 가린 모습. 이 때 알람을 끄는 버튼을 눌러도 꺼지지 않음.
+
+
+<img src="https://user-images.githubusercontent.com/73647861/105378968-b42dbc00-5c4f-11eb-9273-2a669cd05734.jpg" width="500" height="250">
+
+- 방에 불이 켜지면 Turn on liight가 사라짐
+
+
+<img src="https://user-images.githubusercontent.com/73647861/105379279-05d64680-5c50-11eb-801e-9b77f63ccb86.jpg" width="500" height="250">
+
+- Button2를 누르면 알람이 꺼지며 실행 창에 GOOD BYE가 표시
+
+- 알람이 울리기 전에 Button2를 눌러도 실행이 종료
+
+## 6. 느낀점
+프로젝트를 진행하면서 아이디어 회의 중 알람시계에 어떠한 기능을 더욱 추가 할 수 있을지에 대한 고민의 시간이 길었지만, 예상했던 것보다 더 만족스러운 결과물을 직접 만들어 볼 수 있는 기회가 된 것 같았습니다. 배운 내용들을 잘 조합시키고 그 내용과 아이디어를 접목해 알람시계를 구현해 보니 뿌듯했습니다.
+
+다양한 모듈이 주어진다면 이번 프로젝트를 통해 만들었던 내용보다 더욱 발전되고 보완된 알람시계 또는 다른 주제의 프로젝트를 구현해 볼 수 있지 않았을까 하는 아쉬움이 남습니다.
